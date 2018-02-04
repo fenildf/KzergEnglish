@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KzergEnglish", "KzergEnglish\KzergEnglish.csproj", "{3FCAF33F-F051-4F5C-B94A-3F46752539BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LanguageWords", "LanguageWords\LanguageWords.csproj", "{174E8833-6A1E-4B38-A6CF-C4E8DAE40445}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KzergWpfCtrl", "KzergWpfCtrl\KzergWpfCtrl.csproj", "{2CEA337C-450F-4701-9A41-8D73CB70D749}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3FCAF33F-F051-4F5C-B94A-3F46752539BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FCAF33F-F051-4F5C-B94A-3F46752539BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FCAF33F-F051-4F5C-B94A-3F46752539BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FCAF33F-F051-4F5C-B94A-3F46752539BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{174E8833-6A1E-4B38-A6CF-C4E8DAE40445}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{174E8833-6A1E-4B38-A6CF-C4E8DAE40445}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{174E8833-6A1E-4B38-A6CF-C4E8DAE40445}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{174E8833-6A1E-4B38-A6CF-C4E8DAE40445}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2CEA337C-450F-4701-9A41-8D73CB70D749}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CEA337C-450F-4701-9A41-8D73CB70D749}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CEA337C-450F-4701-9A41-8D73CB70D749}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CEA337C-450F-4701-9A41-8D73CB70D749}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

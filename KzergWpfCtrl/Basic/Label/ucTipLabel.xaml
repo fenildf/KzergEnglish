@@ -1,0 +1,19 @@
+﻿<UserControl x:Class="KzergWpfCtrl.Basic.Label.ucTipLabel"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d">
+    <Grid Margin="5">
+        <Label Name="lb" Content="label" MouseLeftButtonUp="lb_MouseLeftButtonUp">
+            <Label.ToolTip>
+                <ToolTip Name="tt" Placement="Right">
+                    <TextBlock Name="tb">
+                    1
+                    </TextBlock>
+                </ToolTip>
+            </Label.ToolTip>
+        </Label>
+        
+    </Grid>
+</UserControl>
