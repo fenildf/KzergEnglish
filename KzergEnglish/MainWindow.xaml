@@ -3,6 +3,6 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="MainWindow" Height="291" Width="339" Topmost="True">
     <Grid x:Name="grid" Margin="0,0,0,0" Loaded="Grid_Loaded">
-        <Label:ucLabelList Name="ull" />
+        <Label:ucLabelList Name="ull" MouseEnter="ull_MouseEnter" MouseLeave="ull_MouseLeave" />
     </Grid>
 </Window>

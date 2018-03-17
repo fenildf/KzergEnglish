@@ -31,7 +31,14 @@ namespace KzergEnglish
         /// 定时刷新界面显示
         /// </summary>
         private DispatcherTimer dtimer = new DispatcherTimer();
+        /// <summary>
+        /// language learn interface now only for english
+        /// </summary>
         private IDeep ideep = null;
+        /// <summary>
+        /// pause when mouse in word list ui.
+        /// </summary>
+        private bool bIsPause = false;
 
         public MainWindow()
         {
@@ -40,6 +47,7 @@ namespace KzergEnglish
 
         void dtimerTick(object sender, EventArgs e)
         {
+            if (bIsPause) return;
             GetData();
         }
 
@@ -59,6 +67,16 @@ namespace KzergEnglish
             List<Hashtable> list = ideep.Next();
             list = ideep.Format(list);
             ull.Update(list);
+        }
+
+        private void ull_MouseEnter(object sender, MouseEventArgs e)
+        {
+            bIsPause = true;
+        }
+
+        private void ull_MouseLeave(object sender, MouseEventArgs e)
+        {
+            bIsPause = false;
         }
     }
 }
